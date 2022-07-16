@@ -1,0 +1,70 @@
+/* Fonts: Oswald , Roboto & Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Poppins:ital,wght@0,300;0,400;1,300&family=Roboto+Slab:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.headContainer {
+  display: flex;
+  background-color: #bdd4e7;
+  background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* MyButton Style */
+.allPop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.btn {
+  margin: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.btn-primary {
+  border-radius: 3em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin: 1em 1em;
+  padding: 1em 3em;
+  transition: all ease-in-out 200ms;
+  background: #28a264;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.btn-primary:hover,
+.btn:focus {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btnAndimg img {
+  max-width: 400px;
+}
+
+.btnAndimg {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 10px;
+}
