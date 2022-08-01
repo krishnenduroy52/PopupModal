@@ -19,10 +19,16 @@ export default function Giveaway({
             <h2 className="big__text">{bigText}</h2>
             <p className="small__text">{smallText}</p>
             <div className="AllBtn">
-              <button className="Thanks__btn btnG" onClick={onClose}>
+              <button className="Thanks__btn btnGive" onClick={onClose}>
                 No Thanks
               </button>
-              <button className="shop__btn btnG">Shop Now</button>
+              <button
+                className="btnGive shop__btnGive"
+                style={{ backgroundColor: "black" }}
+                onClick={onClose}
+              >
+                Shop Now
+              </button>
             </div>
             <p className="nointerest" onClick={onClose}></p>
           </div>

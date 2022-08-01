@@ -21,7 +21,9 @@ export default function Coupon({
             <h2 className="big__text">{bigText}</h2>
             <p className="small__text">{smallText}</p>
             <code className="code__text">{code}</code>
-            <button className="explore__btn">Explore Collection</button>
+            <button className="explore__btn" onClick={onClose}>
+              Explore Collection
+            </button>
             <p className="nointerest" onClick={onClose}>
               {noInterest}
             </p>

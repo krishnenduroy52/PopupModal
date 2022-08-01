@@ -115,7 +115,12 @@
   justify-content: center;
 }
 
-.btnG {
+.shop__btnGive {
+  margin-left: 1.5em;
+  background-color: black;
+  color: white;
+}
+.btnGive {
   padding: 10px 35px;
   font-size: 15px;
   margin: 20px 0;
@@ -131,9 +136,4 @@
 
 .Thanks__btn {
   margin-right: 1.5em;
-}
-.shop__btn {
-  margin-left: 1.5em;
-  background-color: black;
-  color: white;
 }
